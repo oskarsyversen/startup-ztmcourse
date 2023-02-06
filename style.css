@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.233)), url(./pexels-luke-miller-14900787.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.welcome{
+    font-size: 14vw;
+    margin: 2.5rem; 
+    text-transform: uppercase;
+}
+.btn{
+    border: 2px solid white;
+    color: white;
+    padding: 0.4rem 1rem;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+
+@media screen and (min-width:1200px) {
+    .welcome{
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .btn{
+        font-size: 0.6rem;
+    }
+}
